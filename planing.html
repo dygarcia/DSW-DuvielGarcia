@@ -48,15 +48,18 @@
         </thead>
         <tbody>
             <tr>
-                <td>Texto</td>
-                <td>https://www.uco.es/aulasoftwarelibre/wp-content/uploads/2015/11/git-cosfera-dia-1.pdf</td>
+                <td>Texto Manual de GIT</td>
+                <td>https://desarrolloweb.com/manuales/manual-de-git.html</td>
             </tr>
             <tr>
-                <td>Texto</td>
-                <td>https://readthedocs.org/projects/conociendogithub/downloads/pdf/latest/</td>
+                <td>Texto Manual de GITHUB</td>
+                <td>
+
+                <strong>Pagina web:</strong> https://conociendogithub.readthedocs.io/en/latest/ <br> <br>
+                <strong>Link al PDF:</strong> https://readthedocs.org/projects/conociendogithub/downloads/pdf/latest/</td>
             </tr>
             <tr>
-                <td>Texto</td>
+                <td>Texto instalar y configurar github desktop</td>
                 <td>https://docs.github.com/es/desktop/installing-and-configuring-github-desktop/creating-your-first-repository-using-github-desktop</td>
             </tr>
             <tr>
@@ -73,23 +76,63 @@
             </tr>
 
             <tr>
-                <td>Imagen</td>
+                <td>Imagen logo git</td>
                 <td>https://vabadus.es/images/cache/imagen_nodo/images/articulos/5c9df0529d76e194347831.png</td>
             </tr>
 
             <tr>
-                <td>Imagen</td>
+                <td>Imagen logo github desktop</td>
                 <td>https://education.github.com/assets/pack/logo-ghdesktop-40ea908c1b55fd3e6356874e76bca24d5d0877001f4fdff29f34c02eacc35a9e.jpg</td>
             </tr>
             <tr>
-                <td>Imagen</td>
+                <td>Imagen logo GITHUB</td>
                 <td>https://pngimg.com/uploads/github/github_PNG15.png</td>
             </tr>
             <tr>
-                <td>Aplicación</td>
+                <td>Aplicación github desktop</td>
                 <td>https://desktop.github.com/</td>
             </tr>
+            <tr>
+                <td>Video instalación de GIT</td>
+                <td>https://youtu.be/ExdLS6lZaAY</td>
+            </tr>
+            <tr>
+                <td>Video creación de cuenta github</td>
+                <td>https://youtu.be/ODjyWXUFa7M</td>
+            </tr>
+            <tr>
+                <td>Video instalar GITHUB Desktop</td>
+                <td>https://youtu.be/ODjyWXUFa7M</td>
+            </tr>
+            <!-- imágenes primer repositorio github desktop -->
+            <tr>
+                <td> Imágenes para la configuración de un repositorio con github desktop</td>
+                <td>
+                    <ol>
+                        <li>https://docs.github.com/assets/images/help/desktop/lets-get-started.png</li>
 
+                        <li>https://docs.github.com/assets/images/help/desktop/getting-started-guide/creating-a-repository.png</li>
+
+                        <li>https://docs.github.com/assets/images/help/desktop/getting-started-guide/create-a-new-repository-options.png</li>
+
+                        <li>
+                            https://docs.github.com/assets/images/help/desktop/getting-started-guide/publish-repository.png
+                        </li>
+
+                        <li>
+                            https://docs.github.com/assets/images/help/desktop/getting-started-guide/publish-repository-steps.png
+                        </li>
+
+                        <li>
+                            https://docs.github.com/assets/images/help/desktop/getting-started-guide/commit-message.png
+                        </li>
+                        <li>
+                            https://docs.github.com/assets/images/help/desktop/getting-started-guide/click-commit-to-master.png
+                        </li>
+                    </ol>
+                </td>
+
+            </tr>
 
         </tbody>
     </table>
@@ -128,14 +171,14 @@
         <br />
         <ul>
             <li>
-                <strong>Publico:</strong> Cualquiera puede ver el código, clonarlo, además puedes crear proyectos ilimitados con cierto limite de tamaño
+                <strong>Publico:</strong> Cualquiera puede ver el código, clonarlo, además puedes crear proyectos ilimitados con cierto limite de tamaño.
             </li>
             <li>
-                <strong>Privado</strong> Solo tu puedes ver el código  del proyecto y los colaboradores  que  invites a formar parte del proyecto
+                <strong>Privado</strong> Solo tu puedes ver el código  del proyecto y los colaboradores  que  invites a formar parte del proyecto.
             </li>
         </ul>
         <br><br>
-        <strong>GITHUB</strong> permite utilizar ciertas herramientas para realizar seguimiento al proyecto, control de cambios comparando nuevos cambios con los anteriores, revisión de paquetes para su actualización, creación de ramas para implmentrar nueva funcionalidad que puede ser volátil, seguimiento de problemas y una Wiki para documentar el proyecto.
+        <strong>GITHUB</strong> permite utilizar ciertas herramientas para realizar seguimiento al proyecto, control de cambios comparando nuevos cambios con los anteriores, revisión de paquetes para su actualización, creación de ramas para implementrar nueva funcionalidad que puede ser volátil, seguimiento de problemas y una Wiki para documentar el proyecto.
 
     </p>
 
@@ -145,6 +188,120 @@
         Es una aplicación que permite mediante una interfaz grafica realizar las operaciones de  control de versionamiento del proyecto, es decir, permite realizar todas operaciones de consola mediante la interfaz grafica, además de esto permite ver los cambio realizados comparar los archivos locales con los que están almacenados en al nube es decir la plataforma GITHUB, crear un repositorio, clonarlo, ver las ramificaciones del proyecto.
         <br><br>
         Para utilizar esta aplicación debes decargarla e instalarla desde su pagina oficial <a href="https://desktop.github.com/">GITHUB Desktop</a>, una vez termines este proceso deberás autenticarte con tus credenciales de GITHUB y listo.
+    </p>
+
+
+    <h2>Configuración de GIT</h2>
+    <p>
+        Primero  en la terminal gitbash comprobamos la instalación de GIT con el siguiente comando: <br />
+        <pre>git versión</pre>
+        <br>
+        Esto mostara en al terminal la versión de git que esta instalada en nuestro equipo.
+        <br />
+        <br />
+        Procede a configurar tus credenciales, las que usaste para registrarte en github, usa los siguientes comandos: <br /><br />
+
+        <pre>git config global user.name "tu nombre".</pre> <br /><br />
+        <pre>git config global user.email "tu_email@example.com".</pre> <br /><br />
+
+        Lo anterior sirve para que cuando realices un commit en el repositorio local, se almacenen con referencia a tu cuenta.
+    </p>
+
+
+
+    <h2>Crear un Repositorio con github desktop y hacer el primer commit</h2>
+    <p>
+        Como primer paso debes abrir la aplicación de github desktop, iniciar sesión con tus credenciales, si no posees repositorios veras un mensaje que dice "Let's get started!", donde tendrás las siguientes opciones disponibles:
+        <ol>
+            <li>Crear y clonar un repositorio de tutorial.</li>
+            <li>Clonar un repositorio existente desde internet.</li>
+            <li>crear un repositorio nuevo.</li>
+            <li>agregar un repositorio existente desde tu disco duro.</li>
+        </ol>
+
+        <!-- imágen 1 primer repositorio github desktop-->
+
+        Selecciona la opción 3: <br /><br />
+        <!-- imágen 2 primer repositorio github desktop-->
+
+        Llena los campos que te solicita con la información de tu proyecto.
+        <!-- imágen 3 primer repositorio github desktop-->
+
+        Que información debe llevar cada campo? <br /> <br />
+        <ul>
+            <li>
+                <strong>Name:</strong> define el nombre de tu repositorio en tu pc y en la plataforma github.
+            </li>
+            <li>
+                <strong>Description:</strong> es un campo opcional en el cual puedes brindar una breve descripción de tu proyecto.
+            </li>
+            <li>
+                <strong>Local path:</strong> establece la ruta donde se almacenarán los archivos de tu repositorio.
+            </li>
+            <li>
+                <strong>Si seleccionas la opción README:</strong> crear un archivo de confirmación inicial con el cual defines el objetivo de tu proyecto, forma de instalación, dependencias necesarias, este archivo es lo primero que sera visto por las personas que lo visiten.
+            </li>
+            <li>
+                <strong>Git ignore:</strong> permite agregar un archivo personalizado en el cual puedes incluir que archivos serán ignorados, es decir no se enviaran a tu repositorio en al nube.
+            </li>
+            <li>
+                <strong>License: </strong> permite que agregues una licencia de código abierto en tu repositorio.
+            </li>
+        </ul>
+
+
+        <br />
+
+    </p>
+
+    <h3>Publica tu repositorio</h3>
+    <p>
+        Al momento de crear un repositorio con github desktop solo existe en tu PC y solo tu tienes acceso a el, ademas de que estas en riesgo de que si tu equipo sufre daños puedas perder tu proyecto. Para publicar tu repositorio es necesario subir los cambios a la plataforma GITHUB
+
+        <strong>1. Publica  el repositorio</strong> <br /> <br />
+        <!-- imágen 4 primer repositorio github desktop-->
+         <br><br>
+
+         Te aparecerá un recuadro con las siguientes opciones:
+         <br>
+         <ul>
+             <li>El campo Name (Nombre) y Description (Descripción) se llenarán automaticamente por las opciones que ingresaste al crear el repositorio: </li>
+             <li>
+                 La opción <strong>keep this code private (antener este código como privado)</strong> te permite controla quien puede visualizar y clonar tu repositorio, si la seleccionas tu repositorio solo sera visible y accesible para ti.
+             </li>
+             <li><strong>Organization (Organización)</strong> te permite publicar tu repositorio en una organización a la cual pertenezcas y que hayas registrado en github.</li>
+         </ul>
+
+         <!-- imágen 5 primer repositorio github desktop-->
+
+         <br /><br />
+         Haz clic en el botón Publish Repository (Publicar repositorio).
+
+         <br /><br />
+         Desde github desktop puedes acceder a tu repositorio en la plataforma GITHUB, en tu repositorio has click derecho y luego en la opción <strong>View on GitHub</strong> (Ver en github) lo cual abrirá una pestaña en el navegador con al url de tu proyecto en github.
+
+         <br /><br />
+         <strong>Confirma los cambios.</strong>
+         <br /><br />
+
+         Al momento de crear, editar o eliminar un archivo de tu proyecto se verán cambios en github desktop, es momento de subir esos cambios, en al parte inferior izquierda <strong>Changes</strong> Cambios escribe una mensaje de confirmación con información de los cambios que  realizaste debe ser breve, en <strong>Description</strong> Descripción puedes ingresar una descripción mas detallada de los cambios que has realizado.
+
+         <!-- imágen 6 primer repositorio github desktop-->
+
+         <br /><br />
+
+         Da click en el boton <strong>Commit to master</strong>, este boton te muestra tu rama actual que es master.
+         <!-- imágen 6 primer repositorio github desktop-->
+
+         <br /><br />
+
+         Luego haz click en el boton <strong>Push origin</strong>
+
+         <!-- imágen 7 primer repositorio github desktop-->
+
+         <br /><br />
+         Esta acción envía los cambios a tu repositorio en GitHub.
+
     </p>
 
     <h1>Mockup</h1>
