@@ -1,0 +1,79 @@
+.navbar-brand
+{
+    color: #FFF !important;
+}
+.bg-light, .dropdown-menu
+{
+    background: #005883 !important;
+}
+
+.footerp {
+    background: #005883 !important;
+    color: #FFF;
+}
+.footerp a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.dropdown-menu
+{
+    min-width: 12rem !important;
+}
+.dropdown-item
+{
+    color: #FFF;
+}
+.dropdown-item:focus, .dropdown-item:hover
+{
+    background: #F0B429;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover
+{
+    color: #F0B429;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link
+{
+    color: #FFF;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link
+{
+    color: #FFF;
+}
+
+
+.logo{
+    width: 100%;
+}
+
+.logoBanner
+{
+    position: absolute;
+    top: 30px;
+    width: 300px;
+}
+.logoGit{
+    left: 0
+}
+
+.logoGithub{
+    left: 25%;
+}
+
+.logoGitDesk{
+    left: 500px;
+}
+
+.ovititle{
+    background: #005883;
+    color: #FFF;
+}
+.ovititle2{
+    background: #F0B429;
+    color: #FFF;s
+}

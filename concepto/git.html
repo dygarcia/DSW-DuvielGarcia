@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GITHUB</title>
+    <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">OVI</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Inicio </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Conceptos
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../concepto/git.html">Git<i class="fa fa-file-text-o float-right" aria-hidden="true"></i></a>
+              <a class="dropdown-item" href="../concepto/github.html">GitHub<i class="fa fa-file-text-o float-right" aria-hidden="true"></i></a>
+              <a class="dropdown-item" href="../concepto/githubdesktop.html">GitHub Desktop<i class="fa fa-file-text-o float-right" aria-hidden="true"></i></a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Recursos
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../recursos/git.html">
+                Git <i class="float-right fa fa-file-video-o" aria-hidden="true"></i>
+            </a>
+              <a class="dropdown-item" href="../recursos/github.html">GitHub Git <i class="float-right fa fa-file-video-o" aria-hidden="true"></i> </a>
+              <a class="dropdown-item" href="../recursos/githubdesktop.html">GitHub Desktop
+                <i class="float-right fa fa-file-video-o" aria-hidden="true"></i></a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Autoevaluación
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">  Pregunta 1 <i class="fa fa-list-alt float-right" aria-hidden="true"></i>
+              <a class="dropdown-item" href="#">Pregunta 2 <i class="fa fa-list-alt float-right" aria-hidden="true"></i></a>
+            </div>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Autores </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 mt-5">
+              <h3 class="text-center mb-5">Sistema de control de versiones</h3>
+              <p>
+                  Un sistema de control de versiones es la gestión de los  diferentes cambios realizados en un proyecto, permitiendo tener un control de los avances del proyecto realizando versiones escaladas de forma ordenada.
+                  Estos sistemas facilitan la administración y seguimiento de las versiones de cada proyecto, este procedimiento puede realizare a mano pero es altamente recomendando utilizar un sistema de control de versiones o SVC
+                  "System Version Control", una de las mas utilizadas es GIT con su plataforma GITHUB.
+              </p>
+              <h3 class="text-center">GIT</h3>
+              <p class="text-center">
+                <img src="../img/logogit.png" alt="" width="400px">
+              </p>
+              <p>
+                  Es un sistema de control de versiones distribuido que se encarga de almacenar el versionamiento del proyecto o producto en un conjunto de instantáneas de un mini sistema de archivos. Git maneja tres estados principales para organizar los archivos, estos son: <br><br>
+                  <ul>
+                      <li>
+                          <strong>Confirmado (commited)</strong> indica que los datos se almacenan de manera segura  en tu base de datos local.
+                      </li>
+                      <li>
+                          <strong>Modificado (modified)</strong> indica que has realizado modificaciones sobre uno o varios de tus archivos y aun no lo has confirmado a tu base de datos local.
+                      </li>
+                      <li>
+                          <strong>Preparado (staged)</strong> indica que has marcado uno de los archivos modificados en su versión actual para que sea enviado en la próxima confirmación.
+                      </li>
+                  </ul>
+              </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Crear un repositorio en Github</h2>
+            <p>
+              Desde Github creas un repositorio con el botón "+" de arriba a la derecha. Obviamente tienes que haberte registrado en Github para comenzar. El registro es gratuito.
+            </p>
+            <img src="../img/addgitr.png" alt="">
+            <p>
+              Apareces en una página para que indiques los datos del repositorio. Básicamente tienes que darle un nombre, elegir si es público o privado y opcionalmente una descripción. Yo la parte que dice "Initialize this repository with a README" siempre la dejo desmarcada.
+            </p>
+
+            <img src="../img/newrepo.png" alt="">
+            <p>
+              El tema de hacer el repositorio público o privado te lo tienen que decir los que te han pedido realizar esta tarea. Si no me equivoco, para hacer repositorios en privado debes tener una cuenta de pago en Github, por lo que entiendo que ellos te habrán pedido hacerlo público. Tendrás que salir de dudas con ellos
+
+Una vez que creas el repositorio mantén en el navegador de momento la página que te aparece en Github, porque tiene información importante que en seguida usaremos.
+            </p>
+
+            <h2>
+              Subir el proyecto a Github con Push
+            </h2>
+            <p>
+              Una vez tienes Git instalado, tienes que ir, en el terminal, a la carpeta de tu proyecto, entonces allí generas tu repositorio en local con la orden "init" (si es q no lo has hecho ya).
+              <br>
+
+              <pre>
+                git init
+              </pre>
+
+              Luego, desde la carpeta de haces el comando "add" para agregar todos los archivos al "staging area".
+              <br><br>
+              <pre>
+                git add .
+              </pre>
+              Luego lanzas el comando para el commit, que se lleva los archivos al repositorio para control de cambios. Es el siguiente:
+              <br>
+              <br>
+              <pre>
+                git commit -m 'mi primer commit'
+              </pre>
+              En vez de ‘mi primer commit’ pon algo que sea menos genérico y más relevante, relacionado con tu proyecto y el estado en el que estás ;)
+
+              Luego tienes q hacer el "push" desde tu repositorio local a remoto con los comandos que aparecen en la página de Github que hay justo después de haber creado el repositorio (allí donde te pedí que permanecieras con el navegador). Vuelve a tu navegador y los verás, abajo del todo, en la alternativa de subir un repositorio existente en local. Es algo como esto:
+              <br> <br>
+
+              <pre>
+                git remote add origin https://github.com/aqui-tu-repo.git
+              </pre>
+
+              Y luego haces el propio push también con git:
+              <br><br>
+
+              <pre>
+                git push -u origin master
+              </pre>
+
+              Inisisto que estos dos comandos te aparecen justo en la página que llegas al crear un repositorio. Es bueno copiar y pegar de allí, porque aparecerá la URL de tu repositorio en GitHub y así no corres el riesgo de equivocarte al escribir
+
+
+
+
+            </p>
+          </div>
+        </div>
+
+
+        <div class="row footerp">
+            <div class="col-md-12 text-center pt-3 pb-3">
+                <a href="https://www.unad.edu.co/">Universidad Nacional Abierta y a Distancia – UNAD - Cead Valledupar</a> <br>
+                Carrera - Ingenieria de Sistemas <br>
+                Curso - Diseños de sitios web  <br>
+                Código - 301122A_764
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

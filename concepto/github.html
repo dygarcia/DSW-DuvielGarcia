@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GITHUB</title>
+    <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+
+    <style>
+      iframe .wy-nav-side {
+        display: none !important;
+      }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">OVI</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Inicio </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Conceptos
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../concepto/git.html">Git<i class="fa fa-file-text-o float-right" aria-hidden="true"></i></a>
+              <a class="dropdown-item" href="../concepto/github.html">GitHub<i class="fa fa-file-text-o float-right" aria-hidden="true"></i></a>
+              <a class="dropdown-item" href="../concepto/githubdesktop.html">GitHub Desktop<i class="fa fa-file-text-o float-right" aria-hidden="true"></i></a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Recursos
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../recursos/git.html">
+                Git <i class="float-right fa fa-file-video-o" aria-hidden="true"></i>
+            </a>
+              <a class="dropdown-item" href="../recursos/github.html">GitHub Git <i class="float-right fa fa-file-video-o" aria-hidden="true"></i> </a>
+              <a class="dropdown-item" href="../recursos/githubdesktop.html">GitHub Desktop
+                <i class="float-right fa fa-file-video-o" aria-hidden="true"></i></a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Autoevaluación
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">  Pregunta 1 <i class="fa fa-list-alt float-right" aria-hidden="true"></i>
+              <a class="dropdown-item" href="#">Pregunta 2 <i class="fa fa-list-alt float-right" aria-hidden="true"></i></a>
+            </div>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Autores </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <h2 class="text-center mt-5 mb-5" >GITHUB - Documentacion completa</h2>
+      <div class="col-md-12">
+        <iframe width="100%" height="500px" src="https://conociendogithub.readthedocs.io/en/latest/" frameborder="0"></iframe>
+      </div>
+
+        <div class="row footerp">
+            <div class="col-md-12 text-center pt-3 pb-3">
+                <a href="https://www.unad.edu.co/">Universidad Nacional Abierta y a Distancia – UNAD - Cead Valledupar</a> <br>
+                Carrera - Ingenieria de Sistemas <br>
+                Curso - Diseños de sitios web  <br>
+                Código - 301122A_764
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('iframe').on("load", function() {
+          $('iframe').contents().find('nav').hide();
+        })
+      });
+    </script>
+</body>
+</html>
